@@ -12,7 +12,7 @@ main{
     align-items: center;
 }
 h1 {
-	    display: flex;
+	display: flex;
     justify-content: center;
     color: white
 }
@@ -29,6 +29,9 @@ li {
 fieldset {
 	margin-top: 1%;
 }
+fieldset:hover {
+	background-color: #00000070;
+}
 a {
 	color: red;
 }
@@ -44,6 +47,11 @@ a {
     border-style: solid;
     border-width: 3%;
 }
+.foto-perfil:hover {
+	border-radius: 0;
+	transition: 1.5s;
+	border-color: red;
+}
 .box-miranha {
 	display: flex;
     justify-content: center;
@@ -51,4 +59,13 @@ a {
 }
 .miranha-foto {
 	width: 70%;
+}
+h1:hover {
+	color: red;
+}
+h2:hover {
+	color: red;
+}
+p:hover {
+	color: red;
 }
